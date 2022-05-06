@@ -33,6 +33,10 @@ public class Suma {
     public int getTotal() {
         return total;
     }
-
+   
+    int suma (){
+        total = a + b;
+        return total;
+    }
     
 }
