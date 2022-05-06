@@ -21,5 +21,7 @@ public class MainSuma {
         System.out.println("Introdusca la segunda sifra");
         suma.setB(leer.nextInt());
         System.out.println("-----------------------------");
+        
+        System.out.println("Total" + suma.suma());
     }
 }
